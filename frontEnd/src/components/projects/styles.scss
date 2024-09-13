@@ -1,0 +1,29 @@
+.projectCards {
+  border-radius: 0.5rem;
+  background-color: #fff;
+  padding: 0.5rem;
+  //   min-height: 10rem;
+  position: relative;
+  .project-name {
+    padding: 0.3rem;
+    background-color: #deedff;
+    border-radius: 4rem;
+  }
+  .expand {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+}
+
+.project-view-root {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.active-project {
+  border-left: 0.3rem solid #ffe8f7;
+  padding: 1rem;
+//   border-radius: 2rem;
+  width: 100%;
+}

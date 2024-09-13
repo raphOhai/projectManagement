@@ -1,0 +1,24 @@
+.status-list-root {
+  div {
+    padding: 0.5rem;
+  }
+  .active {
+    color: #4456fc;
+    border-bottom: 0.3rem solid #4456fc;
+  }
+}
+
+.nav-root {
+  //   border-left: 2px solid #ebecf2;
+  padding: 0.5rem;
+  position: fixed;
+  top: 0;
+  width: 90%;
+  background-color: white;
+  z-index: 20;
+  // left: 0;
+  // right: 0;
+}
+
+.nav-bar {
+}

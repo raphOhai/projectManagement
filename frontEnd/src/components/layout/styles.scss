@@ -1,0 +1,33 @@
+.root-layout-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 5fr;
+  .box-1 {
+    padding: 0.5rem;
+    background-color: #f9fafc;
+    border-right: 1px solid #ebecf2;
+    height: 100%;
+  }
+  .box-2 {
+    padding: 0.5rem;
+  }
+
+  .box-3 {
+    border-left: 1px solid #ebecf2;
+  }
+}
+
+.body-content {
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  background-color: #ebecf1;
+  height: 400vh;
+
+  padding-top: 10rem;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  //   width: 100%;
+}
